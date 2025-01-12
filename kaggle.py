@@ -66,7 +66,7 @@ if __name__ == '__main__':
     game = Connect4()
     args = {
         'C': 2,
-        'num_searches': 50,
+        'num_searches': 500,
         'dirichlet_epsilon': 0.1,
         'dirichlet_alpha': 0.3,
         'search': True,
